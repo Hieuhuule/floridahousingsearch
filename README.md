@@ -1,2 +1,0 @@
-# floridahousingsearch
-floridahousingsearch.org scraper
