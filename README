@@ -1,0 +1,17 @@
+INSTALLATION INSTRUCTIONS:
+*download python if you haven't already
+*download a code editor to be able to manipulate the code
+
+- Run the following commands in terminal
+`pip install pandas`
+`pip install selenium`
+`pip install webdriver-manager`
+`pip install datetime`
+`pip install openpyxl`
+
+HOW TO USE THE APP:
+1. Open the `Florida.py` file in the code editor
+2. Edit line 25 and put in the link you want to scrape. Ex: https://www.myhousingsearch.com/dbh/SearchHousingSubmit.html?city_id=35857&ch=FL&type=rental&text_search=Tampa 
+**You can find this link by navigating to https://www.floridahousingsearch.org/index.html and then typing in the city you want to scrape. The page you navigate to next will have the link you want.
+3. In terminal, run `python Florida.py`
+4. Chrome will open up and start scraping, you can see this progress in the terminal. At the end of the process, you'll be able to see a new CSV file in this folder.
